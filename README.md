@@ -43,9 +43,9 @@ id_rsa.pub – Public Key
     Key: To get the Public key, open the “id_rsa.pub” file in EC2 instance and copy the content. (Public Key)
 29. Now, we need to go to GitHub and create a new SSH and GPG Key (GitHub > Repo “DevOps_projects_1” > Settings > Webhooks)
 30. Add the following details,
-    Payload URL: http://<public_ip_of_ec2>:8080/github-webhook/
-    Content Type: "application/json"
-    Which event would you like to trigger this webhook?
+     - Payload URL: http://<public_ip_of_ec2>:8080/github-webhook/
+     - Content Type: "application/json"
+     - Which event would you like to trigger this webhook?
      - "Just the push event."
      - "Active: True"
      - Click on “Add Webhook”.
