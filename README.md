@@ -52,6 +52,6 @@ id_rsa.pub – Public Key
 31. Save the configured project
 32. Do some changes in the code and push to GitHub, this will automatically run a pipeline, and the new code will be Live
     
-
+Credits to Chetan Rakhra
 
    
