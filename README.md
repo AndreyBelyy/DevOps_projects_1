@@ -48,7 +48,7 @@ id_rsa.pub – Public Key
     Which event would you like to trigger this webhook?
      - "Just the push event."
      - "Active: True"
-    Click on “Add Webhook”.
+     - Click on “Add Webhook”.
 31. Save the configured project
 32. Do some changes in the code and push to GitHub, this will automatically run a pipeline, and the new code will be Live
     
